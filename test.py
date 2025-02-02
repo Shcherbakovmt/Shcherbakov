@@ -41,7 +41,7 @@ try:
                 GPIO.output(dac[i], int(number[i]))
             print("Теоретическое значение напряжения: ", float(int(n) * 3.248/255), "В")
         else:
-            continue
+            continue # Проверка, что гит видит изменения файла
 
 
         
